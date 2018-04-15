@@ -9,11 +9,11 @@ public class ObedientRobot {
 public static void main(String[] args) {
 	
 	String QWERTY = JOptionPane.showInputDialog("what shape");
-	String QWERTYs = JOptionPane.showInputDialog("what color");
+	String QWERTYs = JOptionPane.showInputDialog("what color #1");
 	int QWERTYst = Integer.parseInt(QWERTYs);
-	String QWERTYsts = JOptionPane.showInputDialog("what color");
+	String QWERTYsts = JOptionPane.showInputDialog("what color #2");
 	int QWERTYss = Integer.parseInt(QWERTYsts);
-	String QWERTYstst = JOptionPane.showInputDialog("what color");
+	String QWERTYstst = JOptionPane.showInputDialog("what color #3");
 	int QWERTYstsss = Integer.parseInt(QWERTYstst);
 	Bb.setPenColor(QWERTYst,QWERTYss,QWERTYstsss);
 	if (QWERTY.equals("cir")) {
